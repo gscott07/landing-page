@@ -21,7 +21,7 @@
 ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 15px;
 }
 
 a {
@@ -83,7 +83,105 @@ button {
 }
 
 .title {
+    margin: 20px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    gap: 5px;    
+}
+
+.boxes {
+    display: flex;
+    gap: 52px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+    align-items: center;
+}
+
+.quote-text {
+    display: flex;
+    text-wrap: wrap;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 750px;
+}
+
+.author {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    width: 750px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 10px
+}
+
+.section-4 {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: center;
+}
+.container-action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    align-items: center;
+    height: 150px;
+    width: 1000px;
+}
+
+.cta {
+    border: #E5E7EB;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #E5E7EB
+}
+
+.button-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.text-container {
+    padding: 20px 100px;
 }
